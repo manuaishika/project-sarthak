@@ -19,8 +19,8 @@
 
 .hands-heart {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,41 +28,40 @@
 
 .hands {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hand {
   position: absolute;
-  width: 80px;
-  height: 60px;
+  width: 60px;
+  height: 80px;
   background: #d2b48c;
-  border-radius: 40px 40px 20px 20px;
-  transform-origin: bottom center;
+  border-radius: 30px 30px 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .hand-left {
-  left: 20px;
-  top: 40px;
-  transform: rotate(-25deg);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  left: 10px;
+  transform: rotate(-20deg);
 }
 
 .hand-right {
-  right: 20px;
-  top: 40px;
-  transform: rotate(25deg);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  right: 10px;
+  transform: rotate(20deg);
 }
 
 .hand::before {
   content: '';
   position: absolute;
-  width: 15px;
-  height: 40px;
+  width: 12px;
+  height: 30px;
   background: #d2b48c;
-  border-radius: 7px;
-  top: -20px;
+  border-radius: 6px;
+  top: -15px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -72,37 +71,37 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 10;
 }
 
 .heart-shape {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   background: #8b7355;
   transform: rotate(45deg);
-  border-radius: 20px 20px 60px 60px;
+  border-radius: 10px 10px 40px 40px;
   position: relative;
-  box-shadow: 0 8px 16px rgba(139, 115, 85, 0.3);
+  box-shadow: 0 6px 12px rgba(139, 115, 85, 0.3);
 }
 
 .heart-shape::before,
 .heart-shape::after {
   content: '';
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   background: #8b7355;
   border-radius: 50%;
 }
 
 .heart-shape::before {
-  top: -60px;
+  top: -40px;
   left: 0;
 }
 
 .heart-shape::after {
   top: 0;
-  left: -60px;
+  left: -40px;
 }
 
 .kids-in-heart {
@@ -110,37 +109,37 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 .kid-circle {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   background: white;
   border-radius: 50%;
-  border: 2px solid #d2b48c;
+  border: 1px solid #d2b48c;
 }
 
 .kid-1 {
-  top: 10px;
-  left: 40px;
+  top: 5px;
+  left: 25px;
 }
 
 .kid-2 {
-  top: 40px;
-  left: 10px;
+  top: 25px;
+  left: 5px;
 }
 
 .kid-3 {
-  top: 70px;
-  left: 40px;
+  top: 45px;
+  left: 25px;
 }
 
 .kid-4 {
-  top: 40px;
-  left: 70px;
+  top: 25px;
+  left: 45px;
 }
 
 .face {
@@ -152,23 +151,23 @@
 .face::before {
   content: '';
   position: absolute;
-  width: 3px;
-  height: 3px;
+  width: 2px;
+  height: 2px;
   background: #6b5b47;
   border-radius: 50%;
-  top: 6px;
-  left: 5px;
+  top: 3px;
+  left: 2px;
 }
 
 .face::after {
   content: '';
   position: absolute;
-  width: 3px;
-  height: 3px;
+  width: 2px;
+  height: 2px;
   background: #6b5b47;
   border-radius: 50%;
-  top: 6px;
-  right: 5px;
+  top: 3px;
+  right: 2px;
 }
 
 .about-text {
@@ -241,18 +240,23 @@
   }
   
   .hands-heart {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .hands {
+    width: 150px;
+    height: 100px;
   }
   
   .hand {
-    width: 60px;
-    height: 45px;
+    width: 50px;
+    height: 65px;
   }
   
   .heart-shape {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
   
   .about-stats {
