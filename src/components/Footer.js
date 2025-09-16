@@ -10,10 +10,10 @@ const Footer = () => {
             <h3>Project Sarthak</h3>
             <p>Building brighter futures for children through education, healthcare, and community support.</p>
             <div className="social-links">
-              <a href="#" className="social-link">Facebook</a>
-              <a href="#" className="social-link">Twitter</a>
-              <a href="#" className="social-link">Instagram</a>
-              <a href="#" className="social-link">LinkedIn</a>
+              <button className="social-link">Facebook</button>
+              <button className="social-link">Twitter</button>
+              <button className="social-link">Instagram</button>
+              <button className="social-link">LinkedIn</button>
             </div>
           </div>
           
@@ -30,9 +30,8 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <div className="contact-info">
-              <p>📧 info@projectsarthak.org</p>
-              <p>📞 +1 (555) 123-4567</p>
-              <p>📍 123 Community Street, City, State 12345</p>
+              <p>📧 projectsarthak20@gmail.com</p>
+              <p>📍 Lucknow, Uttar Pradesh, India</p>
             </div>
           </div>
           
@@ -47,7 +46,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Project Sarthak. All rights reserved.</p>
+          <p>&copy; 2025 Project Sarthak. All rights reserved.</p>
         </div>
       </div>
     </footer>
