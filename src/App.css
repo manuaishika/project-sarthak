@@ -1,0 +1,15 @@
+.App {
+  text-align: left;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
